@@ -77,7 +77,7 @@ export async function Header() {
               size="sm"
               className="hidden bg-transparent sm:flex"
             >
-              <Link href="/auth/signin?provider=google&next=/">Sign In</Link>
+              <a href="/auth/signin?provider=google&next=/" className="...">Sign In</a>
             </Button>
           )}
           <Button size="sm" className="bg-banana text-banana-foreground hover:bg-banana/90">
